@@ -111,8 +111,8 @@ object.onthink = object.onthinkOverride
 
 local combo = {0, 2, 1, 0, 1}; -- dash, rock, pole, dash, pole
 function comboViable()
+  local unitSelf = core.unitSelf
   local mana = 0;
-  local unitSelf = self.core.unitSelf
   for k, v in pairs(combo) do
     local skill = unitSelf:GetAbility(v)
     if not skill:CanActivate() then
@@ -125,6 +125,7 @@ end
 
 local comboState = 1;
 function doCombo()
+  local unitSelf = core.unitSelf
   if comboState >= 5 then 
     comboState = 1;
   end
