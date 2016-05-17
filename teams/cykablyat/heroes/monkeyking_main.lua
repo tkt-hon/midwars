@@ -129,6 +129,7 @@ function doCombo()
   if comboState >= 5 then 
     comboState = 1;
   end
+
   local skill = unitSelf:GetAbility(combo[comboState])
   if skill and skill:CanActivate() then
     skill:Activate();
