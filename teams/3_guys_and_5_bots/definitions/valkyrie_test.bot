@@ -1,0 +1,1 @@
+<bot name="3_guys_and_5_bots_Valkyrie_test" description="3_guys_and_5_bots Valkyrie" heroname="Hero_Valkyrie" rootlua="../heroes/valkyrie_test.lua" defaultplayername="3_guys_and_5_botsValkyrieBot" precachepath="/heroes/valkyrie/"/>
