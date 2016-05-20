@@ -1,0 +1,1 @@
+<bot name="3_guys_and_5_bots_Nymphora_test" description="3_guys_and_5_bots Nymphora" heroname="Hero_Fairy" rootlua="../heroes/nymphora_test.lua" defaultplayername="3_guys_and_5_botsNymphoraBot" precachepath="/heroes/fairy/"/>
