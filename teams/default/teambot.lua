@@ -7,6 +7,29 @@ local core = object.core
 
 object.myName = 'Default Team'
 
+local function MarkProjectiles(botBrain)
+  local units = HoN.GetUnitsInRadius(Vector3.Create(7500,7500,0), 7500, core.UNIT_MASK_ALIVE + core.UNIT_MASK_GADGET)
+  for _, unit in pairs(units) do
+    --core.BotEcho(unit:GetTypeName())
+    if unit:GetTypeName() == "Gadget_Valkyrie_Ability2_Reveal" and unit:GetTeam() ~= core.myTeam then
+      local arrowPos = unit:GetPosition()
+      local heading = unit:GetHeading()
+      local headingPos = arrowPos + unit:GetHeading() * 100
+      core.DrawDebugArrow(arrowPos, headingPos, "red")
+    end
+  end
+  for _, hero in pairs(botBrain.tEnemyHeroes) do
+    local beha = hero:GetBehavior()
+    if beha and beha:GetType() == "Ability" then
+      local goalPos = beha:GetGoalPosition()
+      if goalPos then
+        core.DrawXPosition(goalPos, "red", 500)
+      end
+      --core.BotEcho(beha:GetType())
+    end
+  end
+end
+
 ------------------------------------------------------
 --            onthink override                      --
 -- Called every bot tick, custom onthink code here  --
@@ -15,7 +38,7 @@ object.myName = 'Default Team'
 -- @return: none
 function object:onthinkOverride(tGameVariables)
   self:onthinkOld(tGameVariables)
-
+  MarkProjectiles(object)
   -- custom code here
 end
 object.onthinkOld = object.onthink
