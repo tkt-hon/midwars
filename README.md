@@ -50,3 +50,9 @@ Use the following command to start midwars match. It will reset the state and en
     Alias "team_3_guys_5_bots_legion" "set teambotmanager_legion 3_guys_and_5_bots; AddBot 1 3_guys_and_5_bots_Devourer; AddBot 1 3_guys_and_5_bots_MonkeyKing; AddBot 1 3_guys_and_5_bots_Nymphora; AddBot 1 3_guys_and_5_bots_PuppetMaster; AddBot 1 3_guys_and_5_bots_Valkyrie"
 
     Alias "team_3_guys_5_bots_hellbourne" "set teambotmanager_hellbourne 3_guys_and_5_bots; AddBot 2 3_guys_and_5_bots_Devourer; AddBot 2 3_guys_and_5_bots_MonkeyKing; AddBot 2 3_guys_and_5_bots_Nymphora; AddBot 2 3_guys_and_5_bots_PuppetMaster; AddBot 2 3_guys_and_5_bots_Valkyrie"
+
+### CykaBlyat
+
+    Alias "team_cykablyat_legion" "set teambotmanager_legion cykablyat; AddBot 1 CykaBlyat_Devourer; AddBot 1 CykaBlyat_MonkeyKing; AddBot 1 CykaBlyat_Nymphora; AddBot 1 CykaBlyat_PuppetMaster; AddBot 1 CykaBlyat_Valkyrie"
+
+    Alias "team_cykablyat_hellbourne" "set teambotmanager_hellbourne cykablyat; AddBot 2 CykaBlyat_Devourer; AddBot 2 CykaBlyat_MonkeyKing; AddBot 2 CykaBlyat_Nymphora; AddBot 2 CykaBlyat_PuppetMaster; AddBot 2 CykaBlyat_Valkyrie"
