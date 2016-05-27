@@ -29,7 +29,7 @@ teamHeroTarget = nil
 function object:GetTeamTarget()
 	if teamHeroTarget and teamHeroTarget:IsValid() then
 		if self:CanSeeUnit(teamHeroTarget) then
-			return seft:GetMemoryUnit(teamHeroTarget)
+			return self:GetMemoryUnit(teamHeroTarget)
 		end
 
 		teamHeroTarget = nil
