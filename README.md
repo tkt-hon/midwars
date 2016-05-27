@@ -1,5 +1,12 @@
-# Course page
-http://tkt-hon.github.io/midwars/
+
+#AI for Games III course project
+
+A bot team for Heroes of Newerth. 
+
+Course page: http://tkt-hon.github.io/midwars/
+
+HoN Bot Repository for reference: https://github.com/honteam/Heroes-of-Newerth-Bots
+
 
 # tkt-hon Midwars Tourney
 
@@ -25,3 +32,9 @@ Use the following command to start midwars match. It will reset the state and en
     Alias "team_MidXORFeed_legion" "set teambotmanager_legion mid_xor_feed; AddBot 1 MidXORFeed_Valkyrie; AddBot 1 MidXORFeed_Devourer; AddBot 1 MidXORFeed_PuppetMaster; AddBot 1 MidXORFeed_Nymphora; AddBot 1 MidXORFeed_MonkeyKing;"
 
     Alias "team_MidXORFeed_hellbourne" "set teambotmanager_hellbourne mid_xor_feed; AddBot 2 MidXORFeed_Valkyrie; AddBot 2 MidXORFeed_Devourer; AddBot 2 MidXORFeed_PuppetMaster; AddBot 2 MidXORFeed_Nymphora; AddBot 2 MidXORFeed_MonkeyKing;"
+
+### xxx_CodeEveryDay420_xxx by Aleksi, Atte, Jesse
+
+    Alias "team_xxx_legion" "set teambotmanager_legion xxx_CodeEveryDay420_xxx; AddBot 1 xxx_CodeEveryDay420_xxx_Devourer; AddBot 1 xxx_CodeEveryDay420_xxx_MonkeyKing; AddBot 1 xxx_CodeEveryDay420_xxx_Nymphora; AddBot 1 xxx_CodeEveryDay420_xxx_PuppetMaster; AddBot 1 xxx_CodeEveryDay420_xxx_Valkyrie"
+
+    Alias "team_xxx_hellbourne" "set teambotmanager_hellbourne xxx_CodeEveryDay420_xxx; AddBot 2 xxx_CodeEveryDay420_xxx_Devourer; AddBot 2 xxx_CodeEveryDay420_xxx_MonkeyKing; AddBot 2 xxx_CodeEveryDay420_xxx_Nymphora; AddBot 2 xxx_CodeEveryDay420_xxx_PuppetMaster; AddBot 2 xxx_CodeEveryDay420_xxx_Valkyrie"
