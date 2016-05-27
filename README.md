@@ -38,3 +38,9 @@ Use the following command to start midwars match. It will reset the state and en
     Alias "team_xxx_legion" "set teambotmanager_legion xxx_CodeEveryDay420_xxx; AddBot 1 xxx_CodeEveryDay420_xxx_Devourer; AddBot 1 xxx_CodeEveryDay420_xxx_MonkeyKing; AddBot 1 xxx_CodeEveryDay420_xxx_Nymphora; AddBot 1 xxx_CodeEveryDay420_xxx_PuppetMaster; AddBot 1 xxx_CodeEveryDay420_xxx_Valkyrie"
 
     Alias "team_xxx_hellbourne" "set teambotmanager_hellbourne xxx_CodeEveryDay420_xxx; AddBot 2 xxx_CodeEveryDay420_xxx_Devourer; AddBot 2 xxx_CodeEveryDay420_xxx_MonkeyKing; AddBot 2 xxx_CodeEveryDay420_xxx_Nymphora; AddBot 2 xxx_CodeEveryDay420_xxx_PuppetMaster; AddBot 2 xxx_CodeEveryDay420_xxx_Valkyrie"
+
+### TietokoneJoukkueParas
+
+    Alias "team_TietokoneJoukkueParas_legion" "set teambotmanager_legion TietokoneJoukkueParas_team; AddBot 1 TietokoneJoukkueParas_Devourer; AddBot 1 TietokoneJoukkueParas_MonkeyKing; AddBot 1 TietokoneJoukkueParas_Nymphora; AddBot 1 TietokoneJoukkueParas_PuppetMaster; AddBot 1 TietokoneJoukkueParas_Valkyrie"
+
+    Alias "team_TietokoneJoukkueParas_hellbourne" "set teambotmanager_hellbourne TietokoneJoukkueParas_team; AddBot 2 TietokoneJoukkueParas_Devourer; AddBot 2 TietokoneJoukkueParas_MonkeyKing; AddBot 2 TietokoneJoukkueParas_Nymphora; AddBot 2 TietokoneJoukkueParas_PuppetMaster; AddBot 2 TietokoneJoukkueParas_Valkyrie"

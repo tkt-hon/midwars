@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="TietokoneJoukkueParas_Devourer"
+  description="TietokoneJoukkueParas Devourer"
+  heroname="Hero_Devourer"
+  rootlua="../heroes/devourer_main.lua"
+  defaultplayername="TietokoneJoukkueParasDevourerBot"
+  precachepath="/heroes/devourer/"
+/>

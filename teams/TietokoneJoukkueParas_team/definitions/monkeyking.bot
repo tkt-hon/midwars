@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="TietokoneJoukkueParas_MonkeyKing"
+  description="TietokoneJoukkueParas Monkey King"
+  heroname="Hero_MonkeyKing"
+  rootlua="../heroes/monkeyking_main.lua"
+  defaultplayername="TietokoneJoukkueParasMonkeyKingBot"
+  precachepath="/heroes/monkey_king/"
+/>
