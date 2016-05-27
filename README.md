@@ -44,3 +44,9 @@ Use the following command to start midwars match. It will reset the state and en
     Alias "team_TietokoneJoukkueParas_legion" "set teambotmanager_legion TietokoneJoukkueParas_team; AddBot 1 TietokoneJoukkueParas_Devourer; AddBot 1 TietokoneJoukkueParas_MonkeyKing; AddBot 1 TietokoneJoukkueParas_Nymphora; AddBot 1 TietokoneJoukkueParas_PuppetMaster; AddBot 1 TietokoneJoukkueParas_Valkyrie"
 
     Alias "team_TietokoneJoukkueParas_hellbourne" "set teambotmanager_hellbourne TietokoneJoukkueParas_team; AddBot 2 TietokoneJoukkueParas_Devourer; AddBot 2 TietokoneJoukkueParas_MonkeyKing; AddBot 2 TietokoneJoukkueParas_Nymphora; AddBot 2 TietokoneJoukkueParas_PuppetMaster; AddBot 2 TietokoneJoukkueParas_Valkyrie"
+
+### 3_guys_and_5_bots
+
+    Alias "team_3_guys_5_bots_legion" "set teambotmanager_legion 3_guys_and_5_bots; AddBot 1 3_guys_and_5_bots_Devourer; AddBot 1 3_guys_and_5_bots_MonkeyKing; AddBot 1 3_guys_and_5_bots_Nymphora; AddBot 1 3_guys_and_5_bots_PuppetMaster; AddBot 1 3_guys_and_5_bots_Valkyrie"
+
+    Alias "team_3_guys_5_bots_hellbourne" "set teambotmanager_hellbourne 3_guys_and_5_bots; AddBot 2 3_guys_and_5_bots_Devourer; AddBot 2 3_guys_and_5_bots_MonkeyKing; AddBot 2 3_guys_and_5_bots_Nymphora; AddBot 2 3_guys_and_5_bots_PuppetMaster; AddBot 2 3_guys_and_5_bots_Valkyrie"
