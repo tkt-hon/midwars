@@ -3,8 +3,9 @@ http://tkt-hon.github.io/midwars/
 
 # tkt-hon Midwars Tourney
 
-    Alias "create_midwars_botmatch_1v1" "set teambotmanager_legion; set teambotmanager_hellbourne; BotDebugEnable; StartGame practice test mode:botmatch map:midwars teamsize:1 spectators:1 allowduplicate:true; g_botDifficulty 3; g_camDistanceMax 10000; g_camDistanceMaxSpectator 10000;"
-    Alias "create_midwars_botmatch" "set teambotmanager_legion; set teambotmanager_hellbourne; BotDebugEnable; StartGame practice test mode:botmatch map:midwars teamsize:5 spectators:1 allowduplicate:true; g_botDifficulty 3; g_camDistanceMax 10000; g_camDistanceMaxSpectator 10000;"
+Use the following command to start midwars match. It will reset the state and enable variables to support all the features.
+
+    Alias "create_midwars_botmatch" "set teambotmanager_legion; set teambotmanager_hellbourne; StartGame practice tournament mode:botmatch map:midwars teamsize:5 spectators:1 allowduplicate:true; g_botDifficulty 3; g_camDistanceMax 10000; g_camDistanceMaxSpectator 10000; g_perks true;"
 
 ## Teams
 
