@@ -1,0 +1,1 @@
+<bot name="3_guys_and_5_bots_PuppetMaster_test" description="3_guys_and_5_bots Puppet Master" heroname="Hero_PuppetMaster" rootlua="../heroes/puppetmaster_test.lua" defaultplayername="3_guys_and_5_botsPuppetMasterBot" precachepath="/heroes/puppetmaster/"/>
